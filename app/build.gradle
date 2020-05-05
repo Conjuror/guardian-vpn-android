@@ -59,6 +59,10 @@ android {
             applicationIdSuffix ".beta"
             versionNameSuffix "-${commitHash()}"
         }
+
+        snapshots {
+
+        }
     }
 
     androidExtensions {
@@ -107,6 +111,7 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'tools.fastlane:screengrab:2.0.0'
 }
 
 task ktlint(type: JavaExec, group: "verification") {
