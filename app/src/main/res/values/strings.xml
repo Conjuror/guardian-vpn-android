@@ -1,16 +1,3 @@
 <resources>
 
-    <!-- Legacy, need to clean up or up lift to fluent string list -->
-    <string name="label_vpn" translatable="false">VPN</string>
-    <string name="onboarding_logged_out" translatable="false">Logged out and device removed.</string>
-    <string name="launcher_name" translatable="false">Firefox VPN</string>
-    <string name="vpn_state_separator" translatable="false">&#8226;</string>
-    <string name="vpn_country_switch_hint" translatable="false">Select connection</string>
-    <string name="settings_default_user_name" translatable="false">User</string>
-    <string name="windows_notification_channel_medium" translatable="false">Medium</string>
-    <string name="windows_notification_channel_urgent" translatable="false">Urgent</string>
-    <string name="windows_notification_vpn_unstable_content" translatable="false">Check your connection.</string>
-    <string name="toast_unable_to_remove_device" translatable="false">Unable to remove device.</string>
-    <string name="toast_no_network" translatable="false">Please check your network and try again</string>
-
-</resources>
+hello world
